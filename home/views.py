@@ -7,7 +7,7 @@ from django.http import HttpResponse
 #     return HttpResponse("Beauty for your needs!")
 
 def index(request):
-     return render(request,"base.html")
+     return render(request,"home.html")
 
 def about(request):
     return HttpResponse("About us page!")
