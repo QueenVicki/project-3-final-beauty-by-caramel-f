@@ -10,7 +10,7 @@ def index(request):
      return render(request,"home.html")
 
 def about(request):
-    return HttpResponse("About us page!")
+     return render(request,"about.html")
 
 def services(request):
     return HttpResponse("Our Services page!")
