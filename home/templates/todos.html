@@ -4,8 +4,8 @@
 <ul>
   {% for todo in todos %}
   <li>
-    {{ todo.title }}: {% if todo.completed %} Completed{% else %}Not Completed{%
-    endif %}
+    {{ todo.title }}: {% if todo.completed %} Completed{% else %}Not Completed
+    {% endif %}
   </li>
   {% endfor %}
 </ul>
